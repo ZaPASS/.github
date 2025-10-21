@@ -1,8 +1,10 @@
-name: Feature
-description: New feature or feature extending
-title: "New feature or feature extending"
+name: Refactoring
+description: Refactoring the code
+title: "Make thing better"
 labels:
-  - "Type:Enhancement"
+  - "Type:Refactoring"
+type: task
+projects: ["ZaPASS/2"]
 assignees: []
 body:
   - type: textarea
@@ -10,13 +12,13 @@ body:
       label: "Explanation"
       id: explanation
       description: |
-        Describe about the new feature
-        1. Where is the feature targeting to. Ex: frontend/backend; scope ...
+        Describe about the refactoring
+        1. Where is the refactoring targeting to. Ex: frontend/backend; scope ...
         2. Why it is necessary / good to have
         3. How to make it
       placeholder: |
-        Describe about the new feature:
-        1. Where is the feature targeting to. Ex: frontend/backend; scope ...
+        Describe about the refactoring:
+        1. Where is the refactoring targeting to. Ex: frontend/backend; scope ...
         2. Why it is necessary / good to have
         3. How to make it
     validations:
@@ -29,7 +31,7 @@ body:
         Describe how to know this feature is implemented properly
         This section should be defined by the Owner (Product Owner or who created this issue)
       value: |
-        - [ ] Achieve the goal
+        - [ ] There is a better version of the feature
     validations:
       required: true
   - type: textarea

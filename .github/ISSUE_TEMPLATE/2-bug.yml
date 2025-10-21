@@ -3,6 +3,8 @@ description: File a bug report
 title: "true"
 labels:
   - "Type:Bug"
+type: bug
+projects: ["ZaPASS/2"]
 assignees: []
 body:
   - type: markdown
